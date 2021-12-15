@@ -103,5 +103,5 @@ theme: pure-mod
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/N3SmallCapybara/n3smallcapybara.github.io
+  repo: git@github.com:N3SmallCapybara/n3smallcapybara.github.io.git
   branch: html
