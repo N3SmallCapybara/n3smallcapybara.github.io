@@ -1,13 +1,7 @@
 # menu
 menu:
   Home: .
-  Archives: archives  # 归档
   Categories: categories  # 分类
-  Tags: tags  # 标签
-  Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
-  About: about  # 关于
 
 # Enable/Disable menu icons
 menu_icons:
@@ -56,12 +50,8 @@ pagination:
 # Sidebar
 sidebar: right
 widgets:
-  - board  
   - category
   - tag
-  - tagcloud
-  - archive
-  - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -83,7 +73,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
