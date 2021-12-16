@@ -5,3 +5,5 @@ category:
 ---
 
 ![chicken](/images/food1/1.jpg)
+
+<!-- more -->
