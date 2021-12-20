@@ -4,7 +4,7 @@
   </div>
   <% if (post.excerpt){ %>
   <div class="article-entry text-muted" itemprop="description">
-    <%- post.excerpt %>
+    <a  href="<%- url_for(post.path) %>" itemprop="url"><%- post.excerpt %></a>
   </div>
   <% } %>
   <p class="article-meta">
@@ -15,3 +15,5 @@
     <%- partial('post/wordcount') %>
   </p>
 </article>
+
+
