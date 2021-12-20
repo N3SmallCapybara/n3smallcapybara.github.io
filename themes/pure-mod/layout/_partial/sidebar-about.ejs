@@ -9,7 +9,7 @@
           <li>
             <%= i %>:
             <% if (theme.profile.links[i].startsWith('http')) { %>
-              <a href="<%- theme.profile.links[i] %>" target="_blank"><%- theme.profile.links[i] %></a>
+              <a href="<%- theme.profile.links[i] %>" ><%- theme.profile.links[i] %></a>
             <%  } else { %>
               <a><%- theme.profile.links[i] %></a>
             <% } %>

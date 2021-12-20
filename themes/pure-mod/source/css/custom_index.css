@@ -1,0 +1,14 @@
+article.article.article-type-post{
+    /* background-color: rgb(238, 238, 238) !important; */
+}
+
+.article-title{
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 8px;
+}
+
+.main .article-list article {
+    border-bottom: 5px solid #f2f2f2;
+}

@@ -4,7 +4,7 @@
       <% if(theme.profile && theme.profile.enabled) { %>
       <% var profile = theme.profile; %>
       <div class="profile-block text-center">
-        <a id="avatar" href="<%= profile.follow %>" target="_blank">
+        <a id="avatar" href="<%= profile.follow %>">
           <img class="img-circle img-rotate" src="<%= ( profile.gravatar ? gravatar(profile.gravatar, 128) : url_for(profile.avatar)) %>" width="200" height="200">
         </a>
         <h2 id="name" class="hidden-xs hidden-sm"><%= profile.author %></h2>

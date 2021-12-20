@@ -42,8 +42,7 @@
     fb_admins: theme.fb_admins, 
     fb_app_id: theme.fb_app_id,
   }) %>
-  <meta property="og:image:width" content="600">
-  <meta property="og:image:height" content="700">
+
   <!-- Canonical links -->
   <link rel="canonical" href="<%- url %>">
   <% if (theme.rss){ %>
@@ -53,6 +52,9 @@
     <link rel="icon" href="<%- theme.site.favicon %>" type="image/x-icon">
   <% } %>
   <%- css('css/style') %>
+  <% if (is_home()){ %>
+    <%- css('css/custom_index') %>
+  <% } %>
   <% if (page.mathjax) { %>
     <link href="//cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.css" rel="stylesheet">
   <% } %>
