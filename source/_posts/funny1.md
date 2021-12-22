@@ -5,10 +5,13 @@ category:
 ---
 
 
-![](/images/funny1/1.jpg)
+![](/images/funny1/0.jpg)
 <!-- more -->
 ---
 
+![](/images/funny1/1.jpg)
+
+---
 ![](/images/funny1/2.jpg)
 
 ---
